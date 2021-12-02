@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Blog Post Editor in Backend',
-    'summary': 'Table template for customer receipt in PoS module.',
-    'description': '',
+    'summary': 'Add an editor into the post form used to edit content directly.',
+    'description': 'The easies way to edit a blog content is a direct html editor in post form. This module add an editor into the form.',
     'author': 'ViraWeb',
     'website': 'https://viraweb123.ir',
     'category': 'Point of Sale',
-    'version': '14.0.0',
+    'version': '12.0.0',
     'depends': [
         'website',
         'website_blog',
