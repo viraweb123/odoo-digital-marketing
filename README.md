@@ -1,2 +1,3 @@
-# odoo-digital-marketing
-Addons and tools to improve odoo digital marketing
+# Odoo Digital Marketing Tools
+
+Addons and tools related to the Odoo Digital Marketing

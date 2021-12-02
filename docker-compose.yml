@@ -1,0 +1,37 @@
+version: '3'
+services:
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_USER=odoo
+      - POSTGRES_DB=odoo
+    restart: always             # run as a service
+#    volumes:
+#        - ./postgresql:/var/lib/postgresql/data
+    networks: 
+     - frontend
+
+  odoo14:
+    image: odoo:14
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+      - "8069:8069"
+    tty: true
+    # command: -i Base -c /etc/odoo/odoo.conf
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+    volumes:
+      - .:/mnt/extra-addons
+      - ./odoo.conf:/etc/odoo/odoo.conf
+    restart: always             # run as a service
+    networks: 
+     - frontend
+    
+networks:
+ frontend:
