@@ -13,7 +13,7 @@ services:
      - frontend
 
   odoo14:
-    image: odoo:12
+    image: odoo:14
     depends_on:
       - db
     links:

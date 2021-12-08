@@ -2,11 +2,11 @@
 {
     'name': 'Blog Post Editor in Backend',
     'summary': 'Add an editor into the post form used to edit content directly.',
-    'description': 'The easies way to edit a blog content is a direct html editor in post form. This module add an editor into the form.',
-    'author': 'ViraWeb',
+    'description': 'The easiest way to edit blog content is a direct HTML editor in post form. This module adds an editor to the blog form.',
+    'author': 'ViraWeb123',
     'website': 'https://viraweb123.ir',
-    'category': 'Point of Sale',
-    'version': '12.0.0',
+    'category': 'Website/Website',
+    'version': '14.0.0',
     'depends': [
         'website',
         'website_blog',
@@ -15,7 +15,8 @@
         'views/website_blog_views.xml',
     ],
     'images': [
-        'static/description/images/screenshot.png'
+        'static/description/images/screenshot-14-0.png'
+        'static/description/images/screenshot-14-1.png'
     ],
     'license': 'LGPL-3',
     'auto_install': False,
