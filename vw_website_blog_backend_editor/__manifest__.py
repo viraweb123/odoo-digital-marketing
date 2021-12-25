@@ -6,7 +6,7 @@
     'author': 'ViraWeb123',
     'website': 'https://viraweb123.ir',
     'category': 'Website/Website',
-    'version': '14.0.0',
+    'version': '14.0.1.0.0',
     'depends': [
         'website',
         'website_blog',
