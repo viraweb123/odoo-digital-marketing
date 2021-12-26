@@ -150,6 +150,7 @@ class ProviderOmanPost(models.Model):
                 'functionname': 'calculate',
                 'arguments[]': [weight, country]
             }, timeout=60)
+        print(res.request.body)
         service = False
         js = res.json()
         # TODO: maso, 2021: check if response is success
