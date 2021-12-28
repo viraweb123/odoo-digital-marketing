@@ -1,6 +1,6 @@
 {
-    "name": "Delivery Oman EMS",
-    "summary": "Provides a dynamic calculation of Oman EMS price",
+    "name": "Delivery Oman Post",
+    "summary": "Provides a dynamic calculation of Oman Post price",
     "author": "ViraWeb123",
     "website": "https://viraweb123.ir",
     "license": "AGPL-3",
