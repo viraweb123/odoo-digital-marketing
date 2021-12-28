@@ -11,5 +11,6 @@
         "views/delivery_carrier_view.xml",
     ],
     'auto_install': False,
-    'installable': True
+    'installable': True,
+    'images': ['images/main_screenshot.png']
 }
