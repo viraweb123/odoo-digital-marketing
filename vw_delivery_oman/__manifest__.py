@@ -12,5 +12,5 @@
     ],
     'auto_install': False,
     'installable': True,
-    'images': ['images/main_screenshot.png']
+    'images': ['assets/img/main_screenshot.png']
 }
