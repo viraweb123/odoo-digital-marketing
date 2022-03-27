@@ -1,6 +1,6 @@
 {
-    "name": "Delivery Oman EMS",
-    "summary": "Provides a dynamic calculation of Oman EMS price",
+    "name": "Delivery Oman Post",
+    "summary": "Provides a dynamic calculation of Oman Post price",
     "author": "ViraWeb123",
     "website": "https://viraweb123.ir",
     "license": "AGPL-3",
@@ -11,5 +11,6 @@
         "views/delivery_carrier_view.xml",
     ],
     'auto_install': False,
-    'installable': True
+    'installable': True,
+    'images': ['static/description/assets/img/main_screenshot.png']
 }
