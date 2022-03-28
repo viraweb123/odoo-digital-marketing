@@ -14,7 +14,7 @@ services:
      - frontend
 
   odoo14:
-    image: odoo:14
+    image: odoo:14.0
     depends_on:
       - db
     links:
